@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snow_staging # this is the source_name
+    description: 'This desc of source snowflake'
+    database: TEST
+    schema: PUBLIC
+    tables:
+      - name: Employee2 # this is the table_name
+        description: 'This desc of table snowflake'
